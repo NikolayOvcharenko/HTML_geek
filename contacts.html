@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Контакты</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="shortcut icon" href="img/Unic_ico.png" type="иконка">
+</head>
+<body><div class="header">
+	<ul class="main_menu">
+	<img src="img/Unic_ico.jpg">
+	<li><a href="index.html">Главная</a></li>
+    <li><a href="contacts.html">Контакты</a></li>
+    <li><a href="catalog.html">Каталог</a></Li>
+	</ul>
+	</div>
+	<hr>
+    <h1>Контакты</h1>
+	<div >
+		
+		<form id="contactform" name="contact" method="post" action="mailto:thereIdontknowWhere@mail.ru">
+			<fieldset id="w">
+				<legend class="note"><span class="req">*</span>Поля со звездочкой обязательны для заполнения</legend>
+				<h3 class="note"> Написать письмо </h3>
+				<div class="row">
+					<label for="name">Ваше Имя <span class="req">*</span></label>
+					<input type="text" name="name" id="name" class="txt" tabindex="1" placeholder="Иван Иванов" required>
+				</div>
+				<div class="row">
+					<label for="email">E-mail Адрес <span class="req">*</span></label>
+					<input type="email" name="email" id="email" class="txt" tabindex="2" placeholder="address@mail.ru" required>
+				</div>
+				<div class="row">
+					<label for="subject">Тема <span class="req">*</span></label>
+					<input type="text" name="subject" id="subject" class="txt" tabindex="3" placeholder="Тема письма" required>
+				</div>
+				<div class="row">
+					<label for="message">Сообщение <span class="req">*</span></label>
+					<textarea name="message" id="message" class="txtarea" tabindex="4" placeholder="Сообщение" required></textarea>
+				</div>
+				<div class="center">
+					<input type="submit" id="submitbtn" name="submitbtn" tabindex="5" value="Отправить Сообщение">
+					<input type="reset" value="Очистить">
+				</div>
+			</fieldset>
+		</form>
+	</div>
+	
+    <fieldset id="Maping">
+	<h3 class="heading">
+		Где мы...
+	</h3>
+	Находимся возможно где-то здесь или где-то там...<br>
+	(Это и есть адрес)
+	<br>
+	<iframe class=inverted" src="https://yandex.ru/map-widget/v1/-/CCQXj9Q" width="560" height="400" frameborder="1" allowfullscreen="true"></iframe>
+	</fieldset>
+	<div class="footer">
+		<hr>
+		<a target="_blank" href="https://geekbrains.ru"> Geekbrains </a><br>
+		Фсе права защищены ))) &copy; 2020
+	</div>
+</body>
+
+
+	
+	
+</html>
