@@ -1,7 +1,6 @@
 body {
-	background-color: #f8f8f8;
+	background-color: Lavender;
 	font-family: Verdana, Times, sans-serif; 
-	
 }
 h3 {
 	color: darkred;
@@ -10,88 +9,23 @@ h1 {
 	color: darkred;
 	background: url(img/unicorn.jpg) no-repeat center;
 	background-size: contain;
+	margin: auto;
+	text-align: center;
+	padding-left:40px;
 }
-h1:hover{
+h1:hover, h3:hover{
 	color: firebrick;
 	filter: invert: (100%);
-}
-#w {float:left;
-	border: 3px solid green;
-	background: url(img/Romantic_scrapbook_set_18.jpg) no-repeat right;
-	background-size: contain;
-	}
-	
-#maping{
-	float:right;
-}
-
-	
-.header{
-	
-}
-.header:hover{
-	color: Red;
-	
-}
-.footer{
-
-}
-
-.main_menu{
-	text-decoration: none;
-	list-style-type: none;
-	
-	color: gray;
-	border: 3px solid mediumslateblue;
-	border-radius:10px;
-	font-family:'Times New Roman', Times, serif; 
-	font-size: 90%;
-	padding: 5px;
-	
-	}
-.main_menu:hover{	
-	background-color:Lavender;
-	}
-	.main_menu li {
-		display: inline;
-		margin-right: 5px;
-		border: 1px solid blue;
-		padding: 2px;
-		border-radius:5px;
-	}
-	.main_menu li a:hover{
-		color: FireBrick;
-		border: 2px solid mediumslateblue;
-		padding: 2px;
-		border-radius:5px;
-		
-	}
-	.main_menu li a:active{
-	text-transform: uppercase;
-	}
-.heading {
-	font-family:'Times New Roman', Times, serif; 
-	font-size: 130%;
-	color: mediumslateblue;
-	background-color: #ccc;
-	border: 1px solid black;
-	
+	background:none;
 }
 a { 
 	text-decoration: none;
-	color: black;
+	color: Indigo;
 	}
 a:hover {
 	text-decoration: underline blink;
-	color: gray;
+	color:Purple;
 }
-.row{
-	border: right;
-	display: block;
-	padding: 3px 5px;
-	margin-bottom: 3px;
-	}
-	
 label {
 	display: inline-block;
 	font-weight: bold;
@@ -100,7 +34,145 @@ label {
 	color: #464646;
 	vertical-align: bottom;
 	}
-.req {
+input{
+	font-family: 'Oxygen', sans-serif;
+	color: Indigo;
+}
+input:focus, textarea:focus {
+	outline: none;
+	
+	
+	}
+#w {
+	float:left;
+	border: 3px solid green;
+	background: url(img/Romantic_scrapbook_set_18+.png) no-repeat right;
+	background-size: contain;
+	}
+	#buy{border-radius:20px;
+		background-color:wheat;
+		float:left;
+		weight:200px;
+		height:30px;
+	}
+	#buy:hover{background-color:BurlyWood;}
+	#buy:active{text-transform: uppercase;}
+#maping{
+	float:right;
+}
+.container{
+	
+	margin: 0 auto;	
+	height: 80vh;
+	width: 100%;
+	overflow:auto;
+}
+.Citat{
+	color:wheat;
+	mix-blend-mode:difference;
+}
+.logo{
+	padding:10px;
+	width:100px;
+	height:100px;
+}
+.header{
+	height: 140px;
+}
+.header:hover{
+	color: Red;
+	
+}
+.footer{
+	position:absolute;
+	bottom:0;
+	left:5px;
+	right:5px;
+	margin:auto;
+	text-align: center;
+	height:30px;
+	background-color:Lavender;
+	border-top: 3px solid mediumslateblue;
+	border-radius:10px;
+	border-left: 3px solid mediumslateblue;
+	border-right: 3px solid mediumslateblue;
+}
+.footer a:hover{
+	color:CadetBlue;
+}
+.copiright{
+	float:right;
+	text-align: right;
+	margin-right:5px;
+	margin-top:-15px;
+}
+.main_menu{
+	text-decoration: none;
+	list-style-type: none;
+	margin:auto;
+	color: gray;
+	border: 3px solid mediumslateblue;
+	border-radius:10px;
+	font-family:'Times New Roman', Times, serif; 
+	font-size: 90%;
+	padding: 5px;
+	background-color:Lavender;
+	}
+.main_menu:hover{
+	background-color:#ffe6ff;
+	}
+	.main_menu li {
+		float:right;
+		display:block;
+		margin-top:10px;
+		margin-right: 10px;
+		border: 1px solid blue;
+		border-radius:5px;
+		text-align: center;
+	}
+	.main_menu li:hover{
+		color: FireBrick;
+		border: 2px solid mediumslateblue;
+		border-radius:5px;
+		background-color:Lavender;
+	}
+	.link{
+		width:100px;
+		height:40px;
+		position:relative;
+	}
+	.link a {
+		width:100%;
+		height:100%;
+		display:block;
+		position:absolute;
+		top:75%;
+		left:50%;
+		transform: translate(-50%, -50%);
+		
+	}
+	.main_menu li a:active{
+	text-transform: uppercase;
+	
+	}
+.heading {
+	font-family:'Times New Roman', Times, serif; 
+	font-size: 130%;
+	background-color: rgba(0);
+	border: 2px solid black;
+	padding: 10px;
+	border-radius:5px;
+	text-align: center;
+	text-shadow:mediumspringgreen 1px 1px 5px;
+	
+}
+.row{
+	border: right;
+	display: block;
+	padding: 3px 5px;
+	margin-bottom: 3px;
+	}
+.req{
 	color: #ca5354;
 	font-size: 70%;
 }
@@ -108,18 +180,7 @@ label {
 	font-weight:normal;
 	margin-bottom:5px;
 }
-input{
-	font-family: 'Oxygen', sans-serif;
-	color: Indigo;
-}
-
-
-input:focus, textarea:focus {
-	outline: none;
-	
-	
-	} 
-.txt {
+.txt{
 	display:inline-block;
 	font-family: 'Oxygen', sans-serif;
 	font-weight: normal;
@@ -134,5 +195,107 @@ input:focus, textarea:focus {
 	color: yellow;
 	background-color:  Indigo;
 }
+.inverted{
+	width:100%;
+	height:374px;
+}
+.element{
+	margin:10px;
+	display:block;
+}
+.elemt{
+	width:100px;
+	height:100px;
+	margin:10px;
+	float:left;
+	
+}
+.elemt a{
+	width:100px;
+	height:100px;
+	display:block;
+	text-align:center;
+	
+}
+.elemt a:hover{
+	border:3px solid mediumslateblue;
+	border-radius:5px;
+	padding:5px 0 10px 0;
+	background-color:Lavender;
+}
+.short_desc{
+	color: #707070;
+	font-style: italic;
+	font-size:14px;
+	line-height:16px;
+}
+.short{
+	color: #484343;
+	font-weight: 400;
+	font-size:16px;
+	line-height:24px;
+	
+}
+.short li {
+	font-family:'Courier', serif;
+	list-style-type: none;
+	}
+	.short li:before{
+		content: "\2764. ";
+	}
+.all_txt{
+	color: #0f0f0f;
+	font-style: italic;
+	font-size: 12px;
+}
 
+.passe{
+	float:left;
+		padding:30px;
+		background:DarkSeaGreen;
+		margin:0 10px 0 10px;
+		display: inline-block;
+		outline: 4px solid green;
+}
+.passe:hover{
+		padding:30px;
+		background:#f8f8f8;
+		margin:0;
+		display: inline-block;
+		outline: 0px solid #f8f8f8;
+}
+
+.table{
+	border: 1px solid #000;
+	width: 400px;
+	height: 300px;
+	border-spacing: 10px;
+	border-collapse: collapse;
+	}
+.table td{
+		border: 1px solid red;
+		padding-left: 10px;
+		vertical-align: middle;
+		text-align: center;
+	}
+	.five {
+		background-color:green;
+		}
+.hat {
+	height: 100px;
+	}
+.view{
+	
+	background:Lavender url(img/unicorn.jpg) no-repeat center;
+	background-size: contain;
+	
+}
+.sys{
+	margin-left:370px;
+}
+.end_txt{
+	clear:both;
+	padding-top:5px;
+	float:left;
+}
 
